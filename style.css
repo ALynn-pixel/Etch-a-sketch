@@ -1,0 +1,49 @@
+h1 {
+    font-family: 'Pacifico', cursive;
+    color: #2E4053;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-Color: #FEF9E7;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 70px solid IndianRed;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 5px 7px #888888;
+    width: 600px;
+    height: 400px;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+}
+
+#reset {
+    background-color: #2E4053;
+    font-family: 'Pacifico', cursive;
+    font-size: 22px;
+    border-radius: 5px;
+    margin: 10px;
+    color: white;
+    padding: 4px 6px;
+}
+
+.rows {
+    display: flex;
+    flex-flow: row wrap;
+    flex-grow: 1;
+}   
+
+.columns {
+    display: flex;
+    flex-flow: column wrap;
+    flex-grow: 1;
+    background-color: #F4F6F6;
+}
